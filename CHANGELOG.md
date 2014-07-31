@@ -1,3 +1,7 @@
+#### 0.2.1
+
+- Require ruby version 2.1.0+ due to the use of refinement
+
 #### 0.2.0
 
 - First public release as `source2pdf` gem
@@ -8,6 +12,7 @@
 
 #### 0.1.0 - 0.1.5
 
-- Release as 'github_exporter' gem
+- Released as [github_exporter][] gem
 
 [semantic versioning]: http://semver.org
+[github_exporter]: https://github.com/agilecreativity/github_exporter
