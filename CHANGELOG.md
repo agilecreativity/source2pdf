@@ -1,3 +1,7 @@
+#### 0.2.2
+
+- Support ruby version 1.9.3+
+
 #### 0.2.1
 
 - Require ruby version 2.1.0+ due to the use of refinement

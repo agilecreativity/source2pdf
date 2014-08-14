@@ -6,8 +6,6 @@ require "agile_utils"
 require_relative "source2pdf"
 module Source2Pdf
   class CLI < Thor
-    using AgileUtils::HashExt
-
     desc "export", "Export a given Git's project or a local project to a single pdf file"
     method_option "url",
                   aliases:  "-u",
