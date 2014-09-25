@@ -1,3 +1,7 @@
+#### 0.2.3
+
+- Update gem dependency
+
 #### 0.2.2
 
 - Support ruby version 1.9.3+

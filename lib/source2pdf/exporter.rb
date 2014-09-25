@@ -84,9 +84,9 @@ module Source2Pdf
       files = []
       if input_available?
         files = Source2Pdf.list_files base_dir:  output_path,
-                                    exts:      exts,
-                                    non_exts:  non_exts,
-                                    recursive: true
+                                      exts:      exts,
+                                      non_exts:  non_exts,
+                                      recursive: true
       end
       files
     end
@@ -94,9 +94,9 @@ module Source2Pdf
     # Convert files to htmls
     def files2htmls
       Source2Pdf.files_to_htmls base_dir: output_path,
-                              exts:     exts,
-                              non_exts: non_exts,
-                              theme:    theme if input_available?
+                                exts:     exts,
+                                non_exts: non_exts,
+                                theme:    theme if input_available?
     end
 
     # Convert list of html to list of pdf files
@@ -112,7 +112,7 @@ module Source2Pdf
       input_file = File.expand_path("#{output_dir}/html2pdf_#{repo_name}.tar.gz")
       AgileUtils::FileUtil.gunzip input_file, output_dir if File.exist?(input_file)
       Source2Pdf.pdfs_to_pdf base_dir:  output_dir,
-                           recursive: true
+                             recursive: true
     end
 
     def copy_output
@@ -138,8 +138,7 @@ module Source2Pdf
     # Extract project name from a given URL
     #
     # @param [String] uri input uri
-    #
-    # example:
+    # @example
     #
     #  project_name('https://github.com/erikhuda/thor.git') #=> 'thor'
     #  project_name('https://github.com/erikhuda/thor')     #=> 'thor'
