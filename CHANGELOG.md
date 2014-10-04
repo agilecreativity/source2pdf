@@ -1,3 +1,8 @@
+#### 0.2.4
+
+- Use `require` instead of `require_relative` when possible
+- Misc code cleanup
+
 #### 0.2.3
 
 - Update gem dependency

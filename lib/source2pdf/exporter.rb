@@ -1,6 +1,3 @@
-require "uri"
-require "agile_utils"
-require_relative "../source2pdf"
 module Source2Pdf
   TMP_DIR = "source2pdf_tmp"
   # rubocop:disable ClassLength, MethodLength

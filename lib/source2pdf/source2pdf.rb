@@ -1,6 +1,3 @@
-require "tmpdir"
-require "git"
-require "code_lister"
 module Source2Pdf
   CustomError = Class.new(StandardError)
   class << self

@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 require_relative "../lib/source2pdf"
-include Source2Pdf
 if ARGV.empty?
   Source2Pdf::CLI.start(%w[usage])
 else
