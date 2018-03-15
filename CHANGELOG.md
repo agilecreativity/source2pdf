@@ -1,3 +1,8 @@
+#### 0.2.6
+
+- Update the gems to the latest version
+- Fix potential security vulnerabilities
+
 #### 0.2.5
 
 - Update the gems to the latest version
